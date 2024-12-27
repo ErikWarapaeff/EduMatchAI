@@ -142,13 +142,13 @@
         - **Географическая информация**: Страна, регион, район.
         - **Категория и роль**: Категория вакансии, роль.
 
-![sheme](pictures\columns_info.png)
+![sheme](https://github.com/ErikWarapaeff/EduMatchAI/blob/hw_2/docs/pictures/columns_info.png)
 
   #### Объем данных:
     - Данные с конца 2022 до конца 2023 года собирались вручную, что ограничивало масштаб анализа.
     - С увеличением объема данных сбор стал занимать больше времени и ресурсов.
 
-![publications_per_mnth](pictures\publications_per_mnth.png)
+![publications_per_mnth](https://github.com/ErikWarapaeff/EduMatchAI/blob/hw_2/docs/pictures/publications_per_mnth.png)
 
   #### Качество данных:
     - Пропуски в колонках:
@@ -156,21 +156,21 @@
     - Разнородность формата навыков (`skills`, `hard_skills`, `soft_skills`).
     - Неконсистентность данных о зарплатах (разные валюты, неоднозначность значений "от" и "до").
 
-![nan_info](pictures\nan_info.png)
+![nan_info](https://github.com/ErikWarapaeff/EduMatchAI/blob/hw_2/docs/pictures/nan_info.png)
 
-![nans_visualize](pictures\nans_visualize.png)
+![nans_visualize](https://github.com/ErikWarapaeff/EduMatchAI/blob/hw_2/docs/pictures/nans_visualize.png)
 
-![salary_distribution](pictures\salary_distribution.png)
+![salary_distribution](https://github.com/ErikWarapaeff/EduMatchAI/blob/hw_2/docs/pictures/salary_distribution.png)
 
 Имеем такие распределения по источникам данных, типу занятости, необходимому опыту и топ 10 вакансиям.
 
-![source_distribution](pictures\source_distribution.png)
+![source_distribution](https://github.com/ErikWarapaeff/EduMatchAI/blob/hw_2/docs/pictures/source_distribution.png)
 
-![source_distribution](pictures\shedule_distribution.png)
+![source_distribution](https://github.com/ErikWarapaeff/EduMatchAI/blob/hw_2/docs/pictures/shedule_distribution.png)
 
-![exp_distribution](pictures\exp_distribution.png)
+![exp_distribution](https://github.com/ErikWarapaeff/EduMatchAI/blob/hw_2/docs/pictures/exp_distribution.png)
 
-![jobs_top_10](pictures\jobs_top_10.png)
+![jobs_top_10](https://github.com/ErikWarapaeff/EduMatchAI/blob/hw_2/docs/pictures/jobs_top_10.png)
 
 
 ---
@@ -198,15 +198,15 @@
     - Включает **69161 записей** и 361 колонку, где:
         - 5 колонок типа `object`: зарплата, график работы, опыт, занятость, регион.
         - Остальные колонки — скиллы с флагами 0 или 1, указывающими на наличие скилла.
-!['salary_hh_all'](pictures\salary_hh_all.png)
+!['salary_hh_all'](https://github.com/ErikWarapaeff/EduMatchAI/blob/hw_2/docs/pictures/salary_hh_all.png)
 
-!['exp_hh'](pictures\exp_hh.png)
+!['exp_hh'](https://github.com/ErikWarapaeff/EduMatchAI/blob/hw_2/docs/pictures/exp_hh.png)
 
-!['zanyatost_hh'](pictures\zanyatost_hh.png)
+!['zanyatost_hh'](https://github.com/ErikWarapaeff/EduMatchAI/blob/hw_2/docs/pictures/zanyatost_hh.png)
 
-!['regions_hh'](pictures\regions_hh.png)
+!['regions_hh'](https://github.com/ErikWarapaeff/EduMatchAI/blob/hw_2/docs/pictures/regions_hh.png)
 
-!['nans_vis_hh'](pictures\nans_vis_hh.png)
+!['nans_vis_hh'](https://github.com/ErikWarapaeff/EduMatchAI/blob/hw_2/docs/pictures/nans_vis_hh.png)
 
 
 
@@ -217,8 +217,8 @@
     - Структура данных:
         - **text**: текст вакансии.
         - **label**: метка (1 — скиллы, 0 — не скиллы).
-![trebovaniya_opisanya](pictures\trebovaniya_opisanya.png)
-![trebovaniya_counts](pictures\trebovaniya_counts.png)
+![trebovaniya_opisanya](https://github.com/ErikWarapaeff/EduMatchAI/blob/hw_2/docs/pictures/trebovaniya_opisanya.png)
+![trebovaniya_counts](https://github.com/ErikWarapaeff/EduMatchAI/blob/hw_2/docs/pictures/trebovaniya_counts.png)
 
 
     Пример:
