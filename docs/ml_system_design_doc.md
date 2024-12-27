@@ -119,7 +119,7 @@
    - Оптимизация кода.  
    - Подготовка к интеграции рекламного модуля.  
 6. Блок схема:
-![Схема работы программы](pictures\sheme.jpg)
+![Схема работы программы](https://github.com/ErikWarapaeff/EduMatchAI/blob/hw_2/docs/pictures/sheme.jpg)
 
 
 ---
