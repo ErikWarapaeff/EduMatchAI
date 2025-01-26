@@ -64,38 +64,26 @@ streamlit run src/app.py
 ```
 
 
-<p align="center">
-    <img src="./entry_streamlit_service.jpg" alt="Логотип проекта" width="900" style="display: inline-block; vertical-align: middle; margin-right: 10px;"/>  <br/>
-    Начальная страница сервиса
-</p>
-
-
-# Пример использования сервиса, иллюстрированный процессом обработки скринкаста.
-
-
-https://github.com/ikanam-ai/VacancySkillsEstimator/assets/148991752/4a63bb7b-a88e-4027-b3af-a2ea32eec569
-
-
 # Пример работы сервиса
 
 ***Часть 1:***
 
 <p align="center">
-    <img src="./1entry.jpg" alt="Логотип проекта" width="900" style="display: inline-block; vertical-align: middle; margin-right: 10px;"/>  <br/>
+    <img src="./1_entry.png" alt="Логотип проекта" width="900" style="display: inline-block; vertical-align: middle; margin-right: 10px;"/>  <br/>
     Поиск образовательных курсов по представленным данным
 </p>
 
 ***Часть 2:***
 
 <p align="center">
-    <img src="./2search.jpg" alt="Логотип проекта" width="900" style="display: inline-block; vertical-align: middle; margin-right: 10px;"/>  <br/>
+    <img src="./2_search.png" alt="Логотип проекта" width="900" style="display: inline-block; vertical-align: middle; margin-right: 10px;"/>  <br/>
     Найденные схожие образовательные курсы
 </p>
 
 ***Часть 3:***
 
 <p align="center">
-    <img src="./3similars_too.jpg" alt="Логотип проекта" width="900" style="display: inline-block; vertical-align: middle; margin-right: 10px;"/>  <br/>
+    <img src="./3similars.png" alt="Логотип проекта" width="900" style="display: inline-block; vertical-align: middle; margin-right: 10px;"/>  <br/>
     Следующие по степени схожести образовательные курсы
 </p>
 
@@ -104,6 +92,6 @@ https://github.com/ikanam-ai/VacancySkillsEstimator/assets/148991752/4a63bb7b-a8
 
 
 <p align="center">
-    <img src="./4killerfeature.jpg" alt="Логотип проекта" width="900" style="display: inline-block; vertical-align: middle; margin-right: 10px;"/>  <br/>
+    <img src="./verif.png" alt="Логотип проекта" width="900" style="display: inline-block; vertical-align: middle; margin-right: 10px;"/>  <br/>
     Анализ покрытия требований данной вакансии с помощью других образовательных курсов
 </p>

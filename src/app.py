@@ -29,8 +29,8 @@ def main():
         if st.button("Найти схожий курс от GeekBrains"):
             data, vacancy = preprocess_and_match_vacancy(
                 vacancy_url=vacancy_url,
-                data_gb_path="C:\\Users\\Erik\\Documents\\VSCode\\EduMatchAI\\docs\\data\\data_gb_resultv1.csv",
-                data_it_path="C:\\Users\\Erik\\Documents\\VSCode\\EduMatchAI\\docs\\data\\data_it.csv",
+                data_gb_path="https:\\github.com\\ErikWarapaeff\\EduMatchAI\\blob/hw_4\\docs\\data\\data_gb_resultv1.csv",
+                data_it_path="https:\\github.com\\ErikWarapaeff\\EduMatchAI\\blob/hw_4\\docs\\data\\data_it.csv",
             )
             # Выводим описание вакансии
             st.markdown(f"**Название вакансии:** {vacancy['name']}")
@@ -107,7 +107,7 @@ def main():
 
             matrix_df = get_matrix_df(
                 vacancy_url,
-                "C:\\Users\\Erik\\Documents\\VSCode\\EduMatchAI\\docs\\data\\data_gb_resultv1.csv",
+                "https:\\github.com\\ErikWarapaeff\\EduMatchAI\\blob/hw_4\\docs\\data\\data_gb_resultv1.csv",
             )
 
             st.dataframe(matrix_df, use_container_width=True)
@@ -120,8 +120,8 @@ def main():
         if st.button("Найти схожий курс от GeekBrains "):
             data, vacancy = preprocess_and_match_vacancy(
                 vacancy_url=vacancy_url,
-                data_gb_path="C:\\Users\\Erik\\Documents\\VSCode\\EduMatchAI\\docs\\data\\data_gb_resultv1.csv",
-                data_it_path="C:\\Users\\Erik\\Documents\\VSCode\\EduMatchAI\\docs\\data\\data_it.csv",
+                data_gb_path="https:\\github.com\\ErikWarapaeff\\EduMatchAI\\blob/hw_4\\docs\\data\\data_gb_resultv1.csv",
+                data_it_path="https:\\github.com\\ErikWarapaeff\\EduMatchAI\\blob/hw_4\\docs\\data\\data_it.csv",
             )
 
             finder = ResumeSkillsFinder()
@@ -256,7 +256,7 @@ def main():
 
             matrix_df = get_matrix_df(
                 vacancy_url,
-                "C:\\Users\\Erik\\Documents\\VSCode\\EduMatchAI\\docs\\data\\data_gb_resultv1.csv",
+                "https:\\github.com\\ErikWarapaeff\\EduMatchAI\\blob/hw_4\\docs\\data\\data_gb_resultv1.csv",
             )
 
             st.dataframe(matrix_df, use_container_width=True)
