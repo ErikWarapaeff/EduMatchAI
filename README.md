@@ -91,7 +91,7 @@ streamlit run src/app.py
 ***Часть 3:***
 
 <p align="center">
-    <img src="./3_similars.png" alt="Логотип проекта" width="900" style="display: inline-block; vertical-align: middle; margin-right: 10px;"/>  <br/>
+    <img src="./3similars.png" alt="Логотип проекта" width="900" style="display: inline-block; vertical-align: middle; margin-right: 10px;"/>  <br/>
     Следующие по степени схожести образовательные курсы
 </p>
 
