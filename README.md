@@ -100,6 +100,6 @@ streamlit run src/app.py
 
 
 <p align="center">
-    <img src="./feature.png" alt="Логотип проекта" width="900" style="display: inline-block; vertical-align: middle; margin-right: 10px;"/>  <br/>
+    <img src="./verif.png" alt="Логотип проекта" width="900" style="display: inline-block; vertical-align: middle; margin-right: 10px;"/>  <br/>
     Анализ покрытия требований данной вакансии с помощью других образовательных курсов
 </p>
