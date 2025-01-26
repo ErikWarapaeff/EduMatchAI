@@ -70,10 +70,6 @@ streamlit run src/app.py
 </p>
 
 
-# Пример использования сервиса, иллюстрированный процессом обработки скринкаста.
-
-
-https://github.com/ikanam-ai/VacancySkillsEstimator/assets/148991752/4a63bb7b-a88e-4027-b3af-a2ea32eec569
 
 
 # Пример работы сервиса
