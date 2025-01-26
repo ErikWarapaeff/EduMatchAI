@@ -77,21 +77,21 @@ streamlit run src/app.py
 ***Часть 1:***
 
 <p align="center">
-    <img src="./1entry.jpg" alt="Логотип проекта" width="900" style="display: inline-block; vertical-align: middle; margin-right: 10px;"/>  <br/>
+    <img src="./1_entry.png" alt="Логотип проекта" width="900" style="display: inline-block; vertical-align: middle; margin-right: 10px;"/>  <br/>
     Поиск образовательных курсов по представленным данным
 </p>
 
 ***Часть 2:***
 
 <p align="center">
-    <img src="./2search.jpg" alt="Логотип проекта" width="900" style="display: inline-block; vertical-align: middle; margin-right: 10px;"/>  <br/>
+    <img src="./2_search.png" alt="Логотип проекта" width="900" style="display: inline-block; vertical-align: middle; margin-right: 10px;"/>  <br/>
     Найденные схожие образовательные курсы
 </p>
 
 ***Часть 3:***
 
 <p align="center">
-    <img src="./3similars_too.jpg" alt="Логотип проекта" width="900" style="display: inline-block; vertical-align: middle; margin-right: 10px;"/>  <br/>
+    <img src="./3_similars.png" alt="Логотип проекта" width="900" style="display: inline-block; vertical-align: middle; margin-right: 10px;"/>  <br/>
     Следующие по степени схожести образовательные курсы
 </p>
 
