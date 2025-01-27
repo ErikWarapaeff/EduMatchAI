@@ -1,6 +1,6 @@
 import streamlit as st
 import requests
-
+import os
 import warnings
 
 from utils import preprocess_and_match_vacancy, get_matrix_df
@@ -8,7 +8,7 @@ from pdf_parsing import ResumeSkillsFinder
 from shpad import compare_models
 
 warnings.filterwarnings("ignore")
-
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
 def main():
     # st.header("ikanam-ai✔️", divider='rainbow')
@@ -29,8 +29,8 @@ def main():
         if st.button("Найти схожий курс от GeekBrains"):
             data, vacancy = preprocess_and_match_vacancy(
                 vacancy_url=vacancy_url,
-                data_gb_path="https://raw.githubusercontent.com/ErikWarapaeff/EduMatchAI/hw_4/docs/data/data_gb_resultv1.csv",
-                data_it_path="https://raw.githubusercontent.com/ErikWarapaeff/EduMatchAI/hw_4/docs/data/data_it.csv",
+                data_gb_path= os.path.join(BASE_DIR, "docs", "data", "data_gb_resultv1.csv"),
+                data_it_path=os.path.join(BASE_DIR, "docs", "data", "data_it.csv"),
             )
             # Выводим описание вакансии
             st.markdown(f"**Название вакансии:** {vacancy['name']}")
@@ -107,7 +107,7 @@ def main():
 
             matrix_df = get_matrix_df(
                 vacancy_url,
-                "https://raw.githubusercontent.com/ErikWarapaeff/EduMatchAI/hw_4/docs/data/data_gb_resultv1.csv",
+                os.path.join(BASE_DIR, "docs", "data", "data_gb_resultv1.csv"),
             )
 
             st.dataframe(matrix_df, use_container_width=True)
@@ -120,8 +120,8 @@ def main():
         if st.button("Найти схожий курс от GeekBrains "):
             data, vacancy = preprocess_and_match_vacancy(
                 vacancy_url=vacancy_url,
-                data_gb_path="https://raw.githubusercontent.com/ErikWarapaeff/EduMatchAI/hw_4/docs/data/data_gb_resultv1.csv",
-                data_it_path="https://raw.githubusercontent.com/ErikWarapaeff/EduMatchAI/hw_4/docs/data/ata_it.csv",
+                data_gb_path= os.path.join(BASE_DIR, "docs", "data", "data_gb_resultv1.csv"),
+                data_it_path=os.path.join(BASE_DIR, "docs", "data", "data_it.csv"),
             )
 
             finder = ResumeSkillsFinder()
@@ -248,7 +248,6 @@ def main():
 
             st.subheader("Верификация требований у дисциплин")
             st.text_area(
-                "⚙️ Киллер-фича!",
                 "На основе резюме происходит поиск требований по ваканасии "
                 "эти требования сопоставляются с помощью NLP с результатами обучения в курсах "
                 "результат можно посмотреть здесь или скачать ",
@@ -256,7 +255,7 @@ def main():
 
             matrix_df = get_matrix_df(
                 vacancy_url,
-                "https://raw.githubusercontent.com/ErikWarapaeff/EduMatchAI/hw_4/docs/data/data_gb_resultv1.csv",
+                os.path.join(BASE_DIR, "docs", "data", "data_gb_resultv1.csv"),
             )
 
             st.dataframe(matrix_df, use_container_width=True)
