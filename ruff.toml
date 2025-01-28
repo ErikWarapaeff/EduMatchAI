@@ -1,4 +1,6 @@
-line-length = 88
-select = ["E", "F"]
-ignore = ["E501"]
+line-length = 500
+target-version = "py39"
 
+[lint]
+ignore = ["E402", "F541", "F841"]
+select = ["E", "F"]

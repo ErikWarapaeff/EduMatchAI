@@ -23,6 +23,7 @@ from nltk.tokenize import word_tokenize
 
 nltk.download("punkt")
 nltk.download("stopwords")
+nltk.download("punkt_tab")
 
 
 STOP_WORDS = set(stopwords.words("russian"))
@@ -170,7 +171,9 @@ def preprocess_gb_data(csv_file_path: str) -> pd.DataFrame:
 
 def preprocess_it_csv(csv_file_path: str) -> pd.DataFrame:
     # Load DataFrame
-    data = pd.read_csv(csv_file_path, sep=";")
+    data = pd.read_csv(csv_file_path, sep=";", index_col=0, on_bad_lines="skip")
+    print("data_loaded")
+    print("data")
 
     # Remove rows with NaN values in 'description' and 'name' columns
     data = data[~data["description"].isna()].reset_index(drop=True)
@@ -210,8 +213,9 @@ def preprocess_and_match_vacancy(
 
     logging.info("Start preprocess_it_csv")
     # data_it = preprocess_it_csv(data_it_path)
-    data_it = pd.read_csv(data_it_path, index_col=0)
+    data_it = pd.read_csv(data_it_path, sep=";", index_col=0, on_bad_lines="skip")
     data_it = data_it.replace(np.nan, "", regex=True)
+    # print(data_it.head())
     logging.info("End preprocess_it_csv")
 
     logging.info("Start calculate Levenshtein")
